@@ -143,10 +143,10 @@ input,textarea{
 #contact input{
 	border: 2px solid black;
 }
-#social-media ul{
+#socialmedia ul{
 	list-style: none;
 }
-#social-media svg{
+#socialmedia svg{
 	height: 18px;
 	margin-left: 15px;
 }

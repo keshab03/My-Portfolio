@@ -1,13 +1,27 @@
 *{
 	font-family: 'Times New Roman', Times, serif;
 }
+@media (max-width: 768px) {
+	body {
+	  font-size: 16px;
+	}
+  }
+  
+  @media (min-width: 768px) {
+	body {
+	  font-size: 18px;
+	}
+  }
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+	
+
 }
 h1, h2, h3 {
 	font-weight: normal;
+	
 }
 a {
 	color: #333;
@@ -31,11 +45,17 @@ header {
 	justify-content: space-between;
 	overflow: hidden;
 	position: fixed;
+	background-image: url(./img/Bakcground\ pic.jpg);
+	background-repeat:round;
+	background-size: cover;
 }
 header h1 {
 	margin: 0;
 	font-size: 36px;
 	text-decoration: underline;
+}
+nav a:hover {
+	text-transform:uppercase;
 }
 nav ul {
 	list-style: none;
@@ -98,6 +118,9 @@ section p {
 	color:white;
 	padding: 10px;
 	border-radius: 10px;
+}
+.project a:hover {
+	  text-transform: uppercase;
 }
 #languages img{
 	height: 40px;
@@ -170,3 +193,20 @@ footer {
 	justify-content: center;
 	align-items: center;
 }
+::-webkit-scrollbar {
+	width: 15px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: #090808;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: #6c65ec;
+	border-radius: 10px; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+  }
+  

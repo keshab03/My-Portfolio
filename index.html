@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>My Portfolio</title>
-	<link rel="stylesheet"  href="home.css">
+	<link rel="stylesheet"  href="index.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="icon" type="image/x-icon" href="./img/My Photo Main Copy.jpg">
 </head>
@@ -20,7 +20,7 @@
 	</header>
 
 	<div id="mypic">
-		<img src="./img/My Photo Main Copy.jpg">
+		<img src="./img/My Photo Main Copy.jpg" title="Keshab Mahanta">
 	</div>
 	
 	<main>
@@ -43,13 +43,27 @@
 				<h2>Project 1</h2>
 				<img src="./img/grocery.png">
 				<p>E-commerce web site</p>
-				<a href="https://grocerry-ecommerce-website.web.app">View Project</a>
+				<a href="https://grocerry-ecommerce-website.web.app" class="viewproject">View Project</a>
 			</div>
 			<div class="project">
 				<h2>Project 2</h2>
 				<img src="./img/Portfolio_img.png">
 				<p>This is my portfolio</p>
-				<a href="#">View Project</a>
+				<a href="#" class="viewproject">View Project</a>
+			</div>
+
+			<div class="project">
+				<h2>Project 3</h2>
+				<img src="./img/Figma.png">
+				<p>Figma Clone</p>
+				<a href="https://tauriappdemo.web.app/body" class="viewproject">View Project</a>
+			</div>
+
+			<div class="project">
+				<h2>Project 4</h2>
+				<img src="./img/Payment.png">
+				<p>EdYoDa Subscription Demo</p>
+				<a href="https://subscription-webapp.web.app" class="viewproject">View Project</a>
 			</div>
 		</section>
 
@@ -71,9 +85,15 @@
 		<section id="cv">
 			<h2>Download My Resume</h2>
 			<button>
-				<a href="https://drive.google.com/drive/u/0/folders/1PCUmUlfqxd9N0uyNZYCtRUhSAxSihdE7" download>My Resume<i class="fa-solid fa-download"></i></a>
+				<a href="https://drive.google.com/file/d/1pmBkS5xe1VZDG8FD2jS6pSPActhnwQOw/view?usp=share_link" download>My Resume<i class="fa-solid fa-download"></i></a>
 			</button>
 
+		</section>
+
+		<section id="">
+			<h2>Licenses & Certification</h2>
+			<p>Member of IAENG (INTERNATIONAL ASSOCIATION OF ENGINEERS)<br>
+				Member Number : 287103</p>
 		</section>
 
 		<section id="contact">
@@ -100,8 +120,8 @@
 	</main>
 
 	<footer>
-		<p>Copyright &copy; Keshab Mahanta</p>
+		<marquee><p>Copyright &copy; Keshab Mahanta</p></marquee>
 	</footer>
-		<script src="./index.js"></script>
+	<script src="./index.js"></script>
 </body>
 </html>
